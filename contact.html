@@ -2,13 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <style>
+        /* Light mode styles */
+        :root {
+            --bg-color: #fff;
+            --text-color: #333;
+        }
+
+        /* Dark mode styles */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #222;
+                --text-color: #eee;
+            }
+        }
+
         body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Open Sans', sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
-            font-family: 'Open Sans', sans-serif;
         }
 
         .sidebar {
@@ -37,6 +54,24 @@
             padding: 20px;
             flex-grow: 1;
         }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        article {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
@@ -49,10 +84,18 @@
     </div>
 
     <div class="content">
+        <header>
+            <h1>Placeholder title</h1>
+        </header>
+        
         <main>
             <h1>Contact Us</h1>
             <p>This is the contact page content.</p>
         </main>
+        
+        <footer>
+            <p>&copy; 2023 My Website. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
