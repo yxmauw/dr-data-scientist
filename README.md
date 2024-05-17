@@ -1,4 +1,4 @@
 # Reflections
-Github page - reflections about healthcare systems
+Github page - Ramblings from a disillusioned Dr Data Scientist
 
 [Link](https://yxmauw.github.io/dr-reflections/)
