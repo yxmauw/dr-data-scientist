@@ -1,4 +1,4 @@
 # Reflections
-Github page - Ramblings from a disillusioned Dr Data Scientist
+Github page - Ramblings from an enneagram 8 Dr Data Scientist
 
 [Link](https://yxmauw.github.io/dr-data-scientist/)
