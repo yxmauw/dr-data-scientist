@@ -19,28 +19,37 @@
             }
         }
 
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
         body {
             background-color: var(--bg-color);
             color: var(--text-color);
             font-family: 'Open Sans', sans-serif;
-            margin: 0;
-            padding: 0;
             display: flex;
+            flex-direction: row;
+            min-height: 100vh;
         }
 
         .sidebar {
             background-color: #f1f1f1;
             padding: 20px;
             width: 200px;
-            height: 100vh;
             box-sizing: border-box;
-            position: relative;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
         }
 
         .sidebar ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
+            flex-grow: 1;
         }
 
         .sidebar li {
@@ -55,6 +64,8 @@
         .content {
             padding: 20px;
             flex-grow: 1;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             padding-right: 50px;
@@ -78,7 +89,7 @@
             font-size: 27px;
         }
 
-        h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12 {
+        h2, h3 {
             margin: 0;
             align-items: center;
             font-size: 24px;
