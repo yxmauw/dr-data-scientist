@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark realities of Singapore public healthcare</title>
+    <style>
+        /* Light mode styles */
+        :root {
+            --bg-color: #fff;
+            --text-color: #333;
+        }
 
+        /* Dark mode styles */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #222;
+                --text-color: #eee;
+            }
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            flex-direction: row;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            background-color: #f1f1f1;
+            padding: 20px;
+            width: 200px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .content {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+
+        .toc {
+            padding: 20px;
+            align-items: left;
+        }
+
+        .separator {
+            border: 0;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #8e8e8e, transparent);
+            margin: 20px 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30vh;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        h2, h3 {
+            margin: 0;
+            align-items: left;
+            text-align: left;
+            font-size: 22px;
+        }
+
+        article {
+            margin-bottom: 40px;
+            align-items: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            align-items: center;
+        }
+        
+        a:link {
+            color: DodgerBlue;
+        }
+
+        a:visited {
+            color: MediumPurple;
+        }
+
+        a:hover {
+            color: MediumVioletRed;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="index.html">Intro</a></li>
+            <li><a href="origin-story.html">Origin story</a></li>
+            <li><a href="healthcare-darkness.html">Singapore public healthcare darkness</a></li>
+            <li><a href="debunked-truths.html">Debunked Truths (WIP)</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <header>
+            <h1>A Doctor's reflections on interacting with public healthcare as a family member of an inpatient</h1>
+        </header>
+    <div class="Disclaimer">
+        <p>
+            Disclaimer: The views and opinions expressed herein are my own and do not 
+            necessarily reflect the views of my employer or any entity with which I 
+            am associated. This content is intended for informational and personal 
+            expression purposes only and should not be construed as representing 
+            the official position or policies of any company or organization.
+        </p>
+    <div class="toc">
+      <h2>Table of Contents</h2>
+      <ul>
+        <li><a href="#section1">Section 1. A medical doctor's perspective</a></li>
+          <ul>
+              <li><a href="#section1-1"> 1.1 Dangerous shift hours</a></li>
+              <li><a href="#section1-2"> 1.2 Toxic work culture</a></li>
+              <li><a href="#section1-3"> 1.3 Lack of staff collaboration</a></li>
+              <li><a href="#section1-4"> 1.4 Lack of empowerment</a></li>
+              <li><a href="#section1-5"> 1.5 Protocol-driven rather than patient-centred</a></li>
+          </ul>
