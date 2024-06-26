@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My data scientist origin story</title>
+    <style>
+        /* Light mode styles */
+        :root {
+            --bg-color: #fff;
+            --text-color: #333;
+        }
 
+        /* Dark mode styles */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #222;
+                --text-color: #eee;
+            }
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            flex-direction: row;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            background-color: #003545;
+            padding: 20px;
+            width: 200px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .content {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            padding-right: 50px;
+            padding-left: 50px;
+            text-align: justify;
+        }
+
+        .toc {
+            padding: 20px;
+            align-items: left;
+        }
+
+        .separator {
+            border: 0;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #8e8e8e, transparent);
+            margin: 20px 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30vh;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        h2, h3 {
+            margin: 0;
+            align-items: left;
+            text-align: left;
+            font-size: 22px;
+        }
+
+        article {
+            margin-bottom: 40px;
+            align-items: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            align-items: center;
+        }
+        
+        a:link {
+            color: DodgerBlue;
+        }
+
+        a:visited {
+            color: MediumPurple;
+        }
+
+        a:hover {
+            color: MediumVioletRed;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="index.html">Intro</a></li>
+            <li><a href="origin-story.html">Origin story</a></li>
+            <li><a href="healthcare-darkness.html">Challenging interactions with SG public healthcare</a></li>
+            <li><a href="debunked-truths.html">Debunked Truths (WIP)</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <header>
+            <h1>My origin story: Becoming a Dr data scientist</h1>
+        </header>
+    <div class="Disclaimer">
+        <p>
+            <i>
+                Disclaimer: The views and opinions expressed herein are my own and do not 
+            necessarily reflect the views of my employer or any entity with which I 
+            am associated. This content is intended for informational and personal 
+            expression purposes only and should not be construed as representing 
+            the official position or policies of any company or organization.
+            </i>
+        </p>
+    <div class="toc">
+      <h2>Table of Contents</h2>
+      <ul>
+        <li><a href="#section1">Section 1. Becoming a doctor</a></li>
+        <li><a href="#section2">Section 2. Returning to Singapore</a></li>
+        <li><a href="section3">Section 3. Why I left public healthcare</li>
+          <ul>
+              <li><a href="#section3-1-1"> 3.1.1 Dangerous shift hours</a></li>
+              <li><a href="#section3-1-2"> 3.1.2 Normalisation of dangerous practices</a></li>
+              <li><a href="#section3-1-3"> 3.1.3 Lack of professional courtesy</a></li>
+              <li><a href="#section3-2-1"> 3.2.1 Unsupportive, blame culture</a></li>
+              <li><a href="#section3-2-2"> 3.2.2 Hierachical culture</a></li>
+              <li><a href="#section3-2-3"> 3.2.3 Lack of staff empowerment</a></li>
+              <li><a href="#section3-2-4"> 3.2.4 Protocol-driven rather than patient-centred</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+     <main>
+            <hr class="separator">
+            <h2 id="section1">Section 1. Becoming a doctor</h2>
