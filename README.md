@@ -5,8 +5,8 @@ Github page - Ramblings from an enneagram 8 Dr Data Scientist
 
 From Stethoscope to Algorithms: My Journey from Medicine to Machine Learning
 Discover how I transitioned from practicing medicine to revolutionizing healthcare through data science and ML engineering. This article details my unconventional career path, the challenges I faced, and how my medical background uniquely positions me in the tech world.
-__Learn about:__
 
+__Learn about:__
 * What prompted my career shift
 * How I leveraged my medical expertise in data science
 * The parallels between diagnosing patients and debugging code
