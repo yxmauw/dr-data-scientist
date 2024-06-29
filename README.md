@@ -9,7 +9,7 @@ Discover how I transitioned from practicing medicine to revolutionizing healthca
 
 __Learn about:__
 * What prompted my career shift
-* How I leveraged my medical expertise in data science
+* How I leverage my medical expertise in data science
 * The parallels between diagnosing patients and debugging code
 * My vision for the future of healthcare technology
 
