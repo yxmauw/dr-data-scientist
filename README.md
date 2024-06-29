@@ -13,4 +13,4 @@ __Learn about:__
 * The parallels between diagnosing patients and debugging code
 * My vision for the future of healthcare technology
 
-Whether you're considering a career change or interested in the intersection of healthcare and tech, this story offers insights into bridging two seemingly disparate fields.
+Whether you're considering a career change or interested in the intersection of healthcare and tech, this story offers insights into bridging these two fields.
