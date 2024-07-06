@@ -1,6 +1,8 @@
 # Reflections
 [Github page](https://yxmauw.github.io/dr-data-scientist/) - Ramblings from an enneagram 8 Dr Data Scientist
 
+---
+
 ### From Stethoscope to Algorithms: My Journey from Medicine to Machine Learning
 
 After years of reflection, I am finally sharing my story of transitioning from practicing medicine to revolutionizing healthcare through data science and ML engineering. This article has been a long time coming, and I am excited to open up about my unconventional career path, the challenges I have overcome, and how my medical background uniquely positions me in the tech world.
