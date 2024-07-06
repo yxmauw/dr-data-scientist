@@ -1,7 +1,5 @@
 # Reflections
-Github page - Ramblings from an enneagram 8 Dr Data Scientist
-
-[Link](https://yxmauw.github.io/dr-data-scientist/)
+[Github page](https://yxmauw.github.io/dr-data-scientist/) - Ramblings from an enneagram 8 Dr Data Scientist
 
 ### From Stethoscope to Algorithms: My Journey from Medicine to Machine Learning
 
